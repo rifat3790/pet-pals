@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+   text-align: center;
+   background-image: url('../Images/resource.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    margin:10px auto 10px auto;
+}
+/* .card-body{
+    background-color: #333;
+    color: white;
+} */
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: whitesmoke;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.5em;
+}
+
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+.card-body{
+    background-color: #9f984c;
+    color: whitesmoke;
+    width: 50%;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(0.90);
+}
+.field{
+      display: flex;
+    justify-content: center;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+}
+form .btn{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+form .btn:hover {
+    background-color: goldenrod;
+    color: whitesmoke;
+}
